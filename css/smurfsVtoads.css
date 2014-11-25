@@ -3,12 +3,24 @@
 /* Scaffolding and type
  ================================================== */
 html {
-  font-size: 16px;
+  font-size: 10px;
+}
+
+@media (min-width: 30em) {
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 40em) {
   html {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 100em) {
+  html {
+    font-size: 24px;
   }
 }
 
