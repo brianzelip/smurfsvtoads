@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Scaffolding and type
+/* Scaffolding
  ================================================== */
 html {
   font-size: 8px;
@@ -26,8 +26,21 @@ body,
 main { min-height: 100vh;}
 
 body {
-  font: 1rem/1.5 "Lato", sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-siging: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Background color animation
+ ================================================== */
 
 @-webkit-keyframes pulsate {
   0% {
@@ -121,6 +134,9 @@ body {
 }
 
 pre {
+  padding-top: 1rem;
   background: transparent;
   font-family: "PT Mono", "Source Code Pro", monospace;
+  color: white;
+  text-align: center;
 }
