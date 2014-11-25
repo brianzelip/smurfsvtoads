@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* Scaffolding and type
+ ================================================== */
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 40em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+html,
+body,
+main { min-height: 100vh;}
+
+body {
+  font: 1rem/1.5 "Lato", sans-serif;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    background: #a2dfff;
+    color: #c4a600;
+  }
+  11% {
+    background: #64a8ff;
+    color: #e2c100;
+  }
+  23% {
+    background: #0074D9;
+    color: #fff93c;
+  }
+  34% {
+    background: #0045a1;
+    color: #fffa60;
+  }
+  45% {
+    background: #002f86;
+    color: #fffca6;
+  }
+  56% {
+    background: #006540;
+    color: #ffc55d;
+  }
+  67% {
+    background: #1e7f58;
+    color: #ffa942;
+  }
+  78% {
+    background: #3D9970;
+    color: #FF851B;
+  }
+  89% {
+    background: #5ab48a;
+    color: #d05e00;
+  }
+  100% {
+    background: #75d0a4;
+    color: #b14400;
+  }
+}
+
+.bg-pulsate {
+  -webkit-animation: pulsate 10s linear infinite;
+  animation: pulsate 10s linear infinite;
+}
+
+pre {
+  background: transparent;
+  font-family: "PT Mono";
+}
