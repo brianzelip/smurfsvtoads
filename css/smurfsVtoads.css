@@ -70,5 +70,5 @@ body {
 
 pre {
   background: transparent;
-  font-family: "PT Mono";
+  font-family: "PT Mono", "Source Code Pro", monospace;
 }
